@@ -1,0 +1,15 @@
+Для синхронізації проекту між декількома компами
+
+git clone https://github.com/alytvyn/auto24.git
+
+git status 
+
+git add 123.txt
+
+git commit -m "Add 123.txt"
+
+git push
+
+git pull - завантажити все чого не було
+
+git add -A  - завантажити всі файли де були зміни
