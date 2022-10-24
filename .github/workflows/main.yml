@@ -9,6 +9,9 @@ jobs:
     name: Run tests
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: Test local action
         uses: ./allure-report-action
         if: always()
